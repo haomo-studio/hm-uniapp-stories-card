@@ -1,0 +1,163 @@
+.hm-stories-card {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  width: 396px;
+  height: 213px;
+}
+
+.primary {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 8px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 30px rgba(209, 213, 223, 0.5);
+  background-color: #ffffff;
+  width: 370px;
+  height: 174px;
+}
+
+.title {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 32px;
+  padding-left: 30px;
+  width: 370px;
+}
+
+.text {
+  opacity: 1;
+  width: 80px;
+  height: 24px;
+  line-height: 24px;
+  white-space: nowrap;
+  color: #858997;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.titleImg {
+  margin-top: 10px;
+  width: 18px;
+  height: 4px;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 30px;
+  height: 60px;
+}
+
+.outer {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 30px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 30px;
+  border-color: rgba(0, 205, 152, 1);
+  width: 60px;
+  height: 60px;
+}
+
+.tianjiaWrap {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 25px;
+  background-color: #d9f2ec;
+  padding-right: 18px;
+  padding-left: 17px;
+  height: 50px;
+}
+
+.tianjia {
+  width: 16px;
+  height: 16px;
+}
+
+.color {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 15px;
+  border-radius: 1px;
+  background-color: #e6e8ee;
+  width: 2px;
+  height: 30px;
+}
+
+.avatorWrap {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 15px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 30px;
+  border-color: rgba(230, 232, 238, 1);
+  width: 60px;
+  height: 60px;
+}
+
+.avator {
+  border-radius: 25px;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+
+.group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 30px;
+  border-color: rgba(230, 232, 238, 1);
+  width: 60px;
+  height: 60px;
+}
+
+.largeIcon {
+  border-radius: 25px;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 15px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 30px;
+  border-color: rgba(230, 232, 238, 1);
+  width: 60px;
+  height: 60px;
+}
+
+.img {
+  border-radius: 25px;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
